@@ -1,0 +1,9 @@
+OUTPUT_XLSX = "/Users/NithinG/Desktop/ticket_activities_structured1.xlsx"
+
+
+Venv Activate : source .venv/bin/activate
+cd /Users/NithinG/Documents/Agent/Scripts
+
+
+Run Scraper : python3 scrape_fd_activities.py
+Structure : python3 final_parse_fd_activities.py
